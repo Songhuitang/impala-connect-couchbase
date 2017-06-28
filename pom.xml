@@ -10,6 +10,7 @@
 
     <properties>
         <couchbase.version>2.4.6</couchbase.version>
+        <quartz.version>2.2.3</quartz.version>
         <slf4j.version>1.7.25</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
     </properties>
@@ -21,6 +22,13 @@
             <groupId>com.couchbase.client</groupId>
             <artifactId>java-client</artifactId>
             <version>${couchbase.version}</version>
+        </dependency>
+
+        <!-- QartZ-->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>${quartz.version}</version>
         </dependency>
 
         <!-- Log Dependency 日志依赖-->
